@@ -1,0 +1,40 @@
+.newsletter {
+  padding: 68px 0 73px 0;
+  margin-top: 75px;
+  background-color: var(--color6);
+  text-align: center;
+}
+
+.newsletter h2 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.newsletter input {
+  margin-top: 85px;
+  width: 100%;
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid var(--color2);
+}
+
+.newsletter-form {
+  position: relative;
+  display: inline-block;
+  margin: auto 0;
+  min-width: 260px;
+  @media screen and (min-width: 510px) {
+    width: 400px;
+  }
+}
+
+.newsletter-icon {
+  position: absolute;
+  top: 82px;
+  left: 93%;
+  transform: rotate(45deg);
+  fill: var(--color4);
+}

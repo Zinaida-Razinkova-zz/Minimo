@@ -1,0 +1,58 @@
+.comments {
+  padding: 50px 0;
+}
+
+.comments img {
+  margin-right: 25px;
+  width: 70px;
+  height: 70px;
+}
+
+.comments-block {
+  display: flex;
+  margin-top: 40px;
+}
+
+.comments textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var( --color5);
+  padding: 15px;
+  margin: 0;
+
+  @media screen and (min-width: 475px) {
+    width: 300px;
+    }
+    @media screen and (min-width: 1024px) {
+    width: 750px;
+  }
+ 
+
+  &::placeholder {
+    color: var(--color5);
+  }
+}
+.comments-name {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+}
+.comment-text {
+  font-family: var(--font2);
+  font-size: 10px;
+  color: var(--color5);
+  text-transform: uppercase;
+  margin: 0;
+  @media screen and (min-width: 1024px) {
+    font-size: 14px;
+  }
+}
+
+.comments-paragraf {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+  margin: 0 0 25px 0;
+}

@@ -1,0 +1,61 @@
+.sidebar {
+  @media screen and (min-width: 768px) {
+    width: 26%;
+  }
+}
+
+.sidebar-wrap {
+  @media screen and (min-width: 768px) {
+    position: sticky;
+    top: 0px;
+  }
+}
+.sidebar-title {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 25px 0 10px 0;
+}
+.sidebar-paragraf {
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 1;
+}
+.sidebar-text {
+  font-size: 14px;
+  margin: 50px 0 30px 0;
+}
+
+.sidebar-top ul {
+  padding: 0 0 0 20px;
+  margin: 0;
+  color: var(--color5);
+}
+
+.sidebar-item {
+  color: var(--color4);
+  font-size: 21px;
+  font-weight: 500;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.sidebar-list {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.sidebar-me_img {
+  margin: 0;
+}
+
+.sidebar-banner {
+  margin-top: 40px;
+}
+
+.sidebar-list__comments {
+  list-style: none;
+}

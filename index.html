@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>MINIMO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-logo" href="index.html">
+            <img
+              class="header-logo__img"
+              src="./images/logo.jpg"
+              alt="Logo"
+              width="120"
+            />
+          </a>
+          <button
+            class="header-button__menu"
+            aria-controls="header-menu-container"
+            aria-expanded="false"
+            type="button"
+            data-menu-button
+          >
+            <svg width="22" height="22" aria-label="Mobile menu">
+              <use
+                class="header-button__menu-close"
+                href="./images/sprite.svg#burgerclose"
+              ></use>
+              <use
+                class="header-button__menu-burger"
+                href="./images/sprite.svg#burgermenu"
+              ></use>
+            </svg>
+          </button>
+          <ul class="header-menu" id="header-menu-container" data-menu>
+            <li class="header-menu__item menu-1">
+              <a href="lifestyle.html" class="header-menu__link">lifestyle</a>
+            </li>
+            <li class="header-menu__item menu-2">
+              <a href="photodiary.html" class="header-menu__link">photodiary</a>
+            </li>
+            <li class="header-menu__item menu-3">
+              <a href="#" class="header-menu__link">music</a>
+            </li>
+            <li class="header-menu__item menu-4">
+              <a href="#" class="header-menu__link">travel</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="slider">
+        <div class="container">
+          <div class="slideshow">
+            <div class="slides">
+              <img 
+            src="./images/hero.jpg"
+            alt="Girls"
+            width="1152"
+          />
+            </div>
+            <div class="slides">
+              <img 
+            src="./images/hero1.jpg"
+            alt="Girls"
+            width="1152"
+          />
+            </div>
+            <div class="slides">
+              <img 
+            src="./images/hero2.jpg"
+            alt="Girls"
+            width="1152"
+          />
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+        
+      </section>
+      <section class="first">
+        <div class="container2">
+          <p class="text">photodiary</p>
+          <h1 class="title">The perfect weekend getaway</h1>
+          <p class="paragraf first-paragraf__margin">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Sed ut
+            perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+            inventore veritatis et quasi architecto beatae vitae dicta sunt
+            explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+            aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+            ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+            dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+            quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem.
+          </p>
+          <a class="first-link" href="#">Leave a comment</a>
+        </div>
+      </section>
+      <section class="posts">
+        <div class="container2">
+          <div class="posts-row">
+            <div class="posts-left">
+              <img src="./images/post1.jpg" alt="Lifestyle" width="420" />
+              <p class="text">Lifestyle</p>
+              <h2 class="title">
+                <a href="#">More than just a music festival</a>
+              </h2>
+              <p class="paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+            <div class="posts-right">
+              <img src="./images/post2.jpg" alt="Life" width="420" />
+              <p class="text">Lifestyle</p>
+              <h2 class="title">
+                <a href="#">Life tastes better with coffee</a>
+              </h2>
+              <p class="paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="posts">
+        <div class="container2">
+          <div class="posts-row">
+            <div class="posts-left">
+              <img src="./images/post3.jpg" alt="photodiary" width="550" />
+              <p class="text">photodiary</p>
+              <h2 class="title"><a href="#">American dream</a></h2>
+              <p class="paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+            <div class="posts-right">
+              <img src="./images/post4.jpg" alt="diary" width="550" />
+              <p class="text">photodiary</p>
+              <h2 class="title"><a href="#">A day exploring the Alps</a></h2>
+              <p class="paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="container2">
+          <h2>Sign up for our newsletter!</h2>
+          <form class="newsletter-form">
+            <input
+              type="text"
+              name="email"
+              placeholder="Enter a valid email address"
+              title="Enter your email "
+              required
+            />
+            <svg class="newsletter-icon" width="17px" height="25px">
+              <use href="./images/sprite.svg#send"></use>
+            </svg>
+          </form>
+        </div>
+      </section>
+      <section class="posts posts-third">
+        <div class="container2">
+          <div class="posts-row">
+            <div class="posts-left">
+              <img src="./images/post5.jpg" alt="Style" width="550" />
+              <p class="text">Lifestyle</p>
+              <h2 class="title"><a href="#">Top 10 song for running</a></h2>
+              <p class="paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+            <div class="posts-right">
+              <img
+                src="./images/post6.jpg"
+                alt="article about life"
+                width="550"
+              />
+              <p class="text">Lifestyle</p>
+              <h2 class="title"><a href="#">Cold winter days</a></h2>
+              <p class="paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+          </div>
+          <button class="button" type="button">Load more</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container2 footer-row">
+        <div class="footer-col">
+          <a class="footer-text footer-text__size">Terms and conditions</a>
+          <a class="footer-text__size">Privacy</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-follow footer-text__size">Follow</p>
+          <a href="#"
+            ><svg
+              class="footer-icon footer-icon__color"
+              width="17px"
+              height="25px"
+            >
+              <use href="./images/sprite.svg#facebook"></use></svg></a>
+          <a href="#"
+            ><svg
+              class="footer-icon footer-icon__color"
+              width="17px"
+              height="25px"
+            >
+              <use href="./images/sprite.svg#twitter"></use></svg></a>
+          <a href="#"><svg
+              class="footer-icon footer-icon__color"
+              width="17px"
+              height="25px"
+            >
+              <use href="./images/sprite.svg#instagram"></use></svg></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

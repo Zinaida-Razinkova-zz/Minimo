@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: var(--color3);
+  }
+}
+
+body {
+  font-family: var(--font1);
+  color: var(--color4);
+  .container {
+    margin: 0px auto;
+    width: 100%;
+    @media screen and (min-width: 1201px) {
+      max-width: 1200px;
+      padding: 0px 70px 0px 70px;
+    }
+    @media screen and (max-width: 1200px) {
+      max-width: 1200px;
+      padding: 0px 70px 0px 70px;
+    }
+    @media screen and (max-width: 1024px) {
+      max-width: 1024px;
+      padding: 0px 50px 0px 50px;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 768px;
+      padding: 0px 25px 0px 25px;
+    }
+    @media screen and (max-width: 475px) {
+      max-width: 475px;
+      padding: 0px 25px 0px 25px;
+    }
+  }
+  .container2 {
+    margin: 0px auto;
+    width: 100%;
+    @media screen and (min-width: 1201px) {
+      max-width: 1200px;
+      padding: 0px 150px 0px 150px;
+    }
+    @media screen and (max-width: 1200px) {
+      max-width: 1200px;
+      padding: 0px 150px 0px 150px;
+    }
+    @media screen and (max-width: 1024px) {
+      max-width: 1024px;
+      padding: 0px 80px 0px 80px;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 768px;
+      padding: 0px 25px 0px 25px;
+    }
+    @media screen and (max-width: 475px) {
+      max-width: 475px;
+      padding: 0px 25px 0px 25px;
+    }
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  display: block;
+  font-size: 21px;
+  padding: 17px 34px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  border: 1px solid var(--color2);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: var(--color3);
+    border: 1px solid var(--color3);
+  }
+}
+
+.text {
+  font-family: var(--font2);
+  font-size: 14px;
+  letter-spacing: -1.6px;
+  color: var(--color5);
+  text-transform: uppercase;
+  margin: 0 0 19px 0;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.title {
+  margin: 0 0 28px 0;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 32px;
+  }
+}
+
+.paragraf {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}

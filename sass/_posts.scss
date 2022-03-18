@@ -1,0 +1,42 @@
+.posts {
+  padding: 90px 0 0 0;
+}
+
+.posts-third {
+  padding: 103px 0 90px 0;
+}
+
+.posts img {
+  margin: 0 0 26px 0;
+}
+
+.posts-row {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.posts-left {
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    margin-right: 56px;
+  }
+}
+
+.posts-left,
+.posts-right {
+  width: 100%;
+}
+
+.posts a {
+  color: var(--color4);
+  font-size: 32px;
+  letter-spacing: 0.45px;
+  &:hover,
+  &:focus {
+    color: var(--color3);
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
+}

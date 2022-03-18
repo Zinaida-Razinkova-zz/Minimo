@@ -1,0 +1,92 @@
+.first {
+  padding: 95px 0 40px 0;
+  @media screen and (max-width: 768px) {
+    padding: 40px 0;
+  }
+}
+
+.first-content_img {
+  margin-top: 40px;
+}
+
+.first-content_img-fotodiary {
+  margin-top: 70px;
+}
+
+.first-link {
+  color: var(--color5);
+  font-family: var(--font2);
+  font-size: 16px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  &:hover,
+  &:focus {
+    color: var(--color3);
+  }
+}
+
+.first-paragraf__margin {
+  margin: 0 0 44px 0;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 40px 0 60px 0;
+  color: var(--color5);
+}
+
+.share p {
+  margin-right: 18px;
+}
+
+.first-content__quote {
+  margin: 35px 12px 26px 12px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.001em;
+}
+
+.icon-color {
+  fill: var(--color5);
+
+  &:hover,
+  &:focus {
+    fill: var(--color3);
+  }
+}
+.icon-color2 {
+  fill: var(--color4);
+
+  &:hover,
+  &:focus {
+    fill: var(--color3);
+  }
+}
+.icon-margin {
+  margin-right: 10px;
+}
+
+.photodiary-paragraf {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+}
+
+.first-wrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+.first-content {
+  @media screen and (min-width: 768px) {
+    width: 64%;
+    margin-right: 27px;
+  }
+}
